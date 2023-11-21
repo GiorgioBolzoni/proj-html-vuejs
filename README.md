@@ -26,8 +26,8 @@ Giovedì 23/11 ore 18.00
 
 ## Header
 
-fixed
-logo / lista v-for + hover sottolista v-for / menù a comparsa(sx) + button
+- fixed
+- logo / lista v-for + hover sottolista v-for / menù a comparsa(sx) + button
 
 ## Main
 
