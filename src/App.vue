@@ -29,5 +29,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-
+  main{
+    margin-top: 50px;
+  }
 </style>

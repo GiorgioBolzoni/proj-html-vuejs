@@ -84,6 +84,7 @@
   img {
     width: 100%;
     transition: transform 1s ease-in-out;
+    display: block;
 
   }
   
@@ -105,7 +106,6 @@
     flex-direction: column;
   }
   .image-title {
-    
     font-size: 3em;
   }
   .button-prev,
