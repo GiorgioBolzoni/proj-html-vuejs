@@ -29,3 +29,11 @@ body{
 a{
     text-decoration: none;
 }
+
+button{
+    background-color: var(--color-black-color);
+    color: var(--color-white-color);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}

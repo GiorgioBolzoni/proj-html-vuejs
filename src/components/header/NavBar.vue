@@ -16,7 +16,7 @@
         <div>
           <i class="fa-solid fa-bars" style="color: #000000;"></i>
         </div>
-        <button type="button d-flex">
+        <button type="button" class="d-flex px-5 py-3">
           <img src="images/h" alt="">
           <span>Upcoming events <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></span>
         </button>

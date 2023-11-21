@@ -22,7 +22,5 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .jumbotron{
-        max-height: 300px;
-    }
+    
 </style>
