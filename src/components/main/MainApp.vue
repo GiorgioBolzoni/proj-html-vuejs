@@ -3,7 +3,7 @@
         <section class="jumbotron">
             <Carousel1 />
         </section>
-        <section class="py-3 container">
+        <section class="py-5 container">
             <Section2 />
         </section>
     </div>

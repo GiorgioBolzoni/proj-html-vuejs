@@ -69,7 +69,9 @@
       transform: rotate(360deg);
     }
   }
-  
+  h3, h4, button{
+    font-weight: 600;
+  }
   .bike-player {
     position: absolute;
     top: 0;
