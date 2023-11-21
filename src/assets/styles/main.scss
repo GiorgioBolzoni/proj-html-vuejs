@@ -1,12 +1,12 @@
 @use './partials/variables' as *;
+
+$fa-font-path: '../webfonts';
+@import '@fortawesome/fontawesome-free/scss/fontawesome.scss';
+@import '@fortawesome/fontawesome-free/scss/solid.scss';
+@import '@fortawesome/fontawesome-free/scss/regular.scss';
+@import '@fortawesome/fontawesome-free/scss/brands.scss';
+
 @import 'bootstrap/scss/bootstrap';
-
-$fa-font-path: "../webfonts";
-@import "@fortawesome/fontawesome-free/scss/fontawesome.scss";
-
-@import "@fortawesome/fontawesome-free/scss/solid.scss";
-@import "@fortawesome/fontawesome-free/scss/regular.scss";
-@import "@fortawesome/fontawesome-free/scss/brands.scss";
 
 *{
     margin: 0;
@@ -19,4 +19,13 @@ $fa-font-path: "../webfonts";
 	--color-white-color: #ffffff;
 	--color-grey-color: #f5f5f5;
 	--color-light-color: #fbfbfb;
+}
+
+body{
+    color: var(--color-black-color);
+    font-family: 'Poppins', sans-serif;
+}
+
+a{
+    text-decoration: none;
 }

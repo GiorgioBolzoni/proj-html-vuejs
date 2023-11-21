@@ -1,8 +1,11 @@
 <template>
   <div>
     <header class="d-flex p-3">
-      <NavBar @search-media="functionSearchMedia" />
+      <NavBar />
     </header>
+    <main>
+      <MainApp />
+    </main>
   </div>
 </template>
 
@@ -10,12 +13,14 @@
 import { store } from './data/store'; 
 import axios from 'axios';
 import NavBar from './components/header/NavBar.vue'; 
+import MainApp from './components/main/MainApp.vue'; 
 
 export default {
   components:{
     NavBar,
+    MainApp,
   },
-  setup () {
+  data () {
     
 
     return {}
