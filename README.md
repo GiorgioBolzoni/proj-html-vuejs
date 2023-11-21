@@ -22,6 +22,47 @@ Giovedì 23/11 ore 18.00
 
 ---
 
+# Commenti
+
+## Header
+
+fixed
+logo / lista v-for + hover sottolista v-for / menù a comparsa(sx) + button
+
+## Main
+
+-> 7 sezioni
+
+1. carosello
+2. img + text
+3. carosello con cards (hover)
+4. cards v-for + click su btn cambia grafica (?)
+5. 4 cards (hover) | titolo sfonfo fbfbfb
+6. 3 cards con lista tutte uguali (hover che gira con info)
+7. 4 cards (hover) | titolo sfondo fbfbfb
+
+## Footer
+
+- 2 macro sezioni verticali (contenuto e diritti)
+
+- footer-top 3 sezioni:
+
+1. info Gobike
+2. mini form
+3. 2 liste flexate
+
+## Altro
+
+- modificare cursor
+- scrollbar nera consfondo bianco
+- btn che risale la pagina sfondo nero icona bianca
+
+---
+
+---
+
+---
+
 This template should help get you started developing with Vue 3 in Vite.
 
 ## Recommended IDE Setup
