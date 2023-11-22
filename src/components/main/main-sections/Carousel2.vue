@@ -1,4 +1,9 @@
 <template>
+  <div class="container">
+    <div class="text-center py-3">
+    <h3>Our Professional Cycling Trainings</h3>
+    <h6>Learn from the mountain biking expert.</h6>
+  </div>
   <div class="carousel">
     <div class="card-container row">
       <div v-for="(image, index) in visibleImages" :key="index" class="card-carousel col-3" @click="resetAutoSlide">
@@ -13,6 +18,7 @@
       <button @click="slidePrecedente" class="button-prev my-5 mx-2">&lt;</button>
       <button @click="slideSuccessiva" class="button-next my-5 mx-2">&gt;</button>
     </div>
+  </div>
   </div>
 </template>
 
@@ -133,7 +139,7 @@ img {
 .image-text {
   position: absolute;
   top: 3%;
-  left: 8%;
+  left: 10%;
   color: white;
   text-align: start;
   font-weight: 600;
@@ -141,7 +147,7 @@ img {
 }
 
 .image-title {
-  font-size: 2em;
+  font-size: 1.5em;
 }
 
 .description {
@@ -164,5 +170,7 @@ img {
   align-items: center;
   justify-content: center;
 }
-
+h3{
+  font-weight: 600;
+}
 </style>
