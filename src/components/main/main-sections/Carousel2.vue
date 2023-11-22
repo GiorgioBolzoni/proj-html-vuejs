@@ -122,11 +122,11 @@ img {
   display: block;
   border: 10px solid black;
   position: relative;
-  filter: brightness(60%);
+  filter: brightness(70%);
 }
 
 .card-carousel:hover img {
-  filter: brightness(80%);  
+  filter: brightness(85%);  
 }
 .card-carousel:hover .btn-view {
   display: block;  //non compare!
@@ -170,7 +170,5 @@ img {
   align-items: center;
   justify-content: center;
 }
-h3{
-  font-weight: 600;
-}
+
 </style>

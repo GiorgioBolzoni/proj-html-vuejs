@@ -1,4 +1,5 @@
 <template>
+  
   <div>
     <header class="d-flex p-3">
       <NavBar />
