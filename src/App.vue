@@ -6,6 +6,9 @@
     <main>
       <MainApp />
     </main>
+    <footer>
+      <FooterApp />
+    </footer>
   </div>
 </template>
 
@@ -14,11 +17,13 @@ import { store } from './data/store';
 import axios from 'axios';
 import NavBar from './components/header/NavBar.vue'; 
 import MainApp from './components/main/MainApp.vue'; 
+import FooterApp from './components/footer/FooterApp.vue'; 
 
 export default {
   components:{
     NavBar,
     MainApp,
+    FooterApp,
   },
   data () {
     
