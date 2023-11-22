@@ -2,7 +2,7 @@
     <div class="footer">
         <div class="container py-5">
             <div class="row">
-                <div class="col-xl-3 col-lg-4">
+                <div class="col-xl-3 col-lg-4 px-4">
                     <div class="logo">
                         <img src="../../assets/images/logo-footer-gobike.png" alt="logo-footer">
                     </div>
@@ -31,11 +31,70 @@
                         </ul>
                     </div>
                 </div>
-                <div class="col-lg-4">footer C</div>
-                <div class="col-lg-2">footer R</div>
-                <div class="col-lg-2">footer R</div>
+                <div class="col-lg-4 px-4">
+                    <h3>Join Our Newsletter</h3>
+                    <p class="py-3">Subscribe to receive useful information.</p>
+                    <div>
+                        <input type="email" name="email" id="email" placeholder="Your Email Address" class="p-3">
+                        <button type="button" id="subscribe" class="my-1 p-3">Subscribe</button>
+                    </div>
+                </div>
+                <div class="col-lg-2 px-4">
+                    <h3>Trainings</h3>
+                    <div>
+                        <ul id="footer-menu">
+                            <li>
+                                <strong>-</strong> &nbsp;
+                                <a href="#">Riding Lesson</a>
+                            </li>
+                            <li>
+                                <strong>-</strong> &nbsp;
+                                <a href="#">Safe Driving</a>
+                            </li>
+                            <li>
+                                <strong>-</strong> &nbsp;
+                                <a href="#">Mountain Bike</a>
+                            </li>
+                            <li>
+                                <strong>-</strong> &nbsp;
+                                <a href="#">Trail Drive</a>
+                            </li>
+                            <li>
+                                <strong>-</strong> &nbsp;
+                                <a href="#">Pedaling</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-2 px-4">
+                    <h3>Quick Links</h3>
+                    <div>
+                        <ul id="footer-menu">
+                            <li>
+                                <strong>-</strong> &nbsp;
+                                <a href="#">Home</a>
+                            </li>
+                            <li>
+                                <strong>-</strong> &nbsp;
+                                <a href="#">About Us</a>
+                            </li>
+                            <li>
+                                <strong>-</strong> &nbsp;
+                                <a href="#">Blog</a>
+                            </li>
+                            <li>
+                                <strong>-</strong> &nbsp;
+                                <a href="#">Packages</a>
+                            </li>
+                            <li>
+                                <strong>-</strong> &nbsp;
+                                <a href="#">Contact</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
-            <div class="text-center copyright">
+            <div class="text-center copyright mt-4 px-4">
                 © 2023 Gobike - All Rights Reserved.
             </div>
         </div>
@@ -91,4 +150,35 @@ export default {
             font-size: 1.5em;
         }
     }
+    h3{
+        font-weight: 600;
+    }
+    #email{
+        width: 100%;
+        height: 70px;
+        border-radius: 5px;
+    }
+    #subscribe{
+        background: white;
+        color: black;
+        width: 100%;
+        height: 70px;
+    }
+    #footer-menu{
+        width: 100%;
+        margin: auto;
+        li{
+        list-style: none;
+        width: 100%;
+        margin-left: -30px;
+        border: none;
+        display: flex;
+        align-items: center;
+        a{
+            color: white;
+            font-size: 0.7em;
+        }
+    }
+    }
+    
 </style>
