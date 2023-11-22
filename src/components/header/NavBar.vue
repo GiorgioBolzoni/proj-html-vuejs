@@ -1,12 +1,12 @@
 <template>
     <div class="navbar">
-      <div class="container d-flex justify-content-between">
+      <div class="container d-flex justify-content-between align-items-center">
         <section class="col-lg-3 col-md-4 card">
           <img src="/images/logo-gobike.png" alt="">
         </section>
 
         <section class="col-lg-6 d-flex align-items-center justify-content-between">
-          <ul class="d-flex ">
+          <ul class="d-flex align-items-center">
                   <li class="d-flex align-items-center py-4 mx-3 " v-for="(content, index) in NavListContent" :key="index">
                       <a href="#">{{ content.text }}</a>
                   </li>
