@@ -10,6 +10,9 @@
     <footer>
       <FooterApp />
     </footer>
+    <div id="top">
+      <button type="button"><a href="#"><i class="fa-solid fa-chevron-up fa-2xl" style="color: #ffffff;"></i></a></button>
+    </div>
   </div>
 </template>
 
@@ -37,5 +40,18 @@ export default {
 <style lang="scss" scoped>
   main{
     margin-top: 50px;
+  }
+  #top{
+    background: black;
+    display: block;
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 </style>

@@ -13,7 +13,7 @@
           learn cycling from professionals with our competent and experienced staff. You will have a lot of fun with our
           amazing space.
         </div>
-        <img class="divider" width="120" height="15" title="divider" alt="divider"
+        <img class="divider" title="divider" alt="divider"
           src="https://garantiwebtasarim.com/wordpress/gobike/wp-content/uploads/2022/05/divider.jpg">
         <div class="py-3">
             <h4>Professional Team</h4>
@@ -71,6 +71,10 @@
   }
   h3, h4, button{
     font-weight: 600;
+  }
+  .divider{
+    width: 120px;
+    height:15px;
   }
   .bike-player {
     position: absolute;

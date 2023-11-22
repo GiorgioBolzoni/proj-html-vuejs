@@ -15,7 +15,12 @@
 
         <section class="col-lg-3 col-md-4 d-flex align-items-center justify-content-between">
           <div>
-            <i class="fa-solid fa-bars" style="color: #000000;"></i>
+            <!-- <i class="fa-solid fa-bars" style="color: #000000;"></i> -->
+            <div class="hamburger-menu"> 
+              <span></span> 
+              <span></span> 
+              <span></span> 
+            </div>
           </div>
           <button type="button" class="d-flex px-5 py-3">
             <img src="images/h" alt="">
@@ -82,5 +87,28 @@ export default {
       color: black;
     }
   }
-
+.hamburger-menu {
+    width: 30px;
+    height: 20px;
+    position: relative;
+    cursor: pointer;
+}
+.hamburger-menu span {
+    position: absolute;
+    height: 2px;
+    width: 100%;
+    background: black;
+}
+.hamburger-menu span:nth-child(1) {
+    top: 0px;
+    width: 100%;
+}
+.hamburger-menu span:nth-child(2) {
+    top: 9px;
+    width: 22px;
+}
+.hamburger-menu span:nth-child(3) {
+    top: 18px;
+    width: 100%;
+}
 </style>

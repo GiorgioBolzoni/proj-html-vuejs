@@ -129,7 +129,8 @@ img {
   filter: brightness(85%);  
 }
 .card-carousel:hover .btn-view {
-  display: block;  //non compare!
+  display: block !important;  //non compare!
+  width: 100px;
 }
 
 .active {
