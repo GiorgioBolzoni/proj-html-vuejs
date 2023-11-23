@@ -84,19 +84,41 @@ export default {
   .logo{
     
       max-width: min-content;
-    
+      cursor: pointer;
   }
   li{
     list-style: none;
+    
     a{
       color: black;
-    }
+      position: relative;
+      overflow: hidden; 
+      text-decoration: none;
+
+      &::before {
+        content: '';
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 0;
+        height: 3px;
+        background-color: black;
+        transition: width 0.5s ease; 
+      }
+
+      &:hover::before {
+        width: 100%; 
+      }
   }
+}
 .hamburger-menu {
     width: 30px;
     height: 20px;
     position: relative;
     cursor: pointer;
+    &:hover span:nth-child(2){
+      width: 100%;
+    }
 }
 .hamburger-menu span {
     position: absolute;
@@ -111,6 +133,8 @@ export default {
 .hamburger-menu span:nth-child(2) {
     top: 9px;
     width: 22px;
+    transition: width 0.3s ease-in-out; 
+    
 }
 .hamburger-menu span:nth-child(3) {
     top: 18px;

@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        <div class="text-center">
+        <div class="text-center title">
             <h3>Our Expert Trainers</h3>
             <p>Learn to ride a bike from the experts.</p>
         </div>
@@ -64,7 +64,7 @@ export default {
 </script>
 
 <style lang="scss" scoped>
-    .card-image{
+.card-image{
         padding: 5px;
         background-color: #f5f5f5;
         width: calc((100% / 4) - 10px);

@@ -7,9 +7,9 @@
                         <img src="../../assets/images/logo-footer-gobike.png" alt="logo-footer">
                     </div>
                     <div class="footer-info py-2">
-                        <p><i class="fa-regular fa-location-dot" style="color: #ffffff;"></i> New Jersey, USA</p>
-                        <p><i class="fa-regular fa-phone-volume" style="color: #ffffff;"></i> +1 (234) 567 89 10</p>
-                        <p><i class="fa-regular fa-envelope" style="color: #ffffff;"></i> example@example.com</p>
+                        <p><i class="fa-solid fa-location-pin" style="color: #ffffff;"></i>&nbsp;&nbsp; New Jersey, USA</p>
+                        <p><i class="fa-solid fa-phone" style="color: #ffffff;"></i>&nbsp;&nbsp; +1 (234) 567 89 10</p>
+                        <p><i class="fa-regular fa-envelope" style="color: #ffffff;"></i>&nbsp;&nbsp; example@example.com</p>
                     </div>
                     <div>
                         <ul class="d-flex">
@@ -132,6 +132,11 @@ export default {
             vertical-align: middle;
 
         }   
+    }
+    p{
+        i{
+            font-size: 1.5em;
+        }
     }
     .copyright{
         font-size: 16px;
