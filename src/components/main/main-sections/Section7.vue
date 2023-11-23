@@ -109,9 +109,6 @@
   </script>
   
   <style lang="scss" scoped>
-  *{
-    background-color: #f5f5f5;
-  }
   .card-container {
     display: flex;
     transition: all 1s ease-in-out;
