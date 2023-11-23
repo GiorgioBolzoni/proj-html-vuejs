@@ -1,12 +1,12 @@
 <template>
     <div>
-        <section class="jumbotron">
+        <section>
             <Carousel1 />
         </section>
         <section class="py-5 container">
             <Section2 />
         </section>
-        <section class="pt-5 margin container">
+        <section class="py-5 margin container">
             <Carousel2 />
         </section>
         <section class="py-5 container">
@@ -18,7 +18,7 @@
         <section class="py-5 container">
             <Section6 />
         </section>
-        <section class="pt-5 container">
+        <section class="py-5 container">
             <Section7 />
         </section>
     </div>

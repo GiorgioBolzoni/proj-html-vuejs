@@ -7,7 +7,7 @@
     <main>
       <MainApp />
     </main>
-    <footer>
+    <footer class="mt-5">
       <FooterApp />
     </footer>
     <div id="top">
