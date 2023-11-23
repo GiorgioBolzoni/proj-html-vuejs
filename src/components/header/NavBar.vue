@@ -1,7 +1,7 @@
 <template>
     <div class="navbar">
       <div class="container d-flex justify-content-between align-items-center">
-        <section class="col-lg-3 col-md-4 card">
+        <section class="col-lg-3 col-md-4 logo">
           <img src="/images/logo-gobike.png" alt="">
         </section>
 
@@ -22,9 +22,11 @@
               <span></span> 
             </div>
           </div>
-          <button type="button" class="d-flex px-5 py-3">
-            <img src="images/h" alt="">
-            <span>Upcoming events <i class="fa-solid fa-arrow-right" style="color: #000000;"></i></span>
+          <button type="button" class="d-flex px-5 py-3 ms-3 align-items-center justify-content-between">
+            <img src="/images/Screenshot 2023-11-23 122012.png" alt="img">
+            <span class="d-flex justify-content-center align-content-center">Upcoming events 
+              <!-- <i class="fa-solid fa-arrow-right" style="color: #ffffff;"></i>  -->
+            </span>
           </button>
         </section>
       </div>
@@ -69,6 +71,7 @@ export default {
   *{
     font-weight:500;
   }
+
   .navbar{
     position: fixed;
     z-index: 1000;
@@ -78,8 +81,10 @@ export default {
     right: 0;
     background-color: white;
   }
-  .card{
-    border: none;
+  .logo{
+    
+      max-width: min-content;
+    
   }
   li{
     list-style: none;
@@ -110,5 +115,11 @@ export default {
 .hamburger-menu span:nth-child(3) {
     top: 18px;
     width: 100%;
+}
+button{
+  img{
+    max-width: 30%;
+    margin-left: -20px;
+  }
 }
 </style>

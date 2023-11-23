@@ -42,3 +42,35 @@ img{
 h3{
     font-weight: 600;
   }
+  .logo{
+    width: 100%;
+    margin-bottom: 16px;
+    img{
+        width: auto;
+        height: 74px;
+        margin-top: -12px;
+        vertical-align: middle;
+
+    }   
+}
+body::-webkit-scrollbar{
+    scrollbar-color: var(--color-black-color);
+    background-color: var(--color-grey-color);
+    width: 10px;
+    height: 5px;
+}
+::-webkit-scrollbar {
+	width: 12px;
+	background-color: var(--color-grey-color);
+}
+::-webkit-scrollbar-thumb {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color:var(--color-black-color);
+}
+
+::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+	background-color: var(--color-grey-color);
+}
+
+
