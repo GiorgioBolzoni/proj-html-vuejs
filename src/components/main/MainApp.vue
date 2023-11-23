@@ -15,6 +15,9 @@
         <section class="py-5 container">
             <Section5 />
         </section>
+        <section class="py-5 container">
+            <Section6 />
+        </section>
     </div>
 </template>
 
@@ -24,6 +27,7 @@ import Section2 from './main-sections/Section2.vue';
 import Carousel2 from './main-sections/Carousel2.vue'; 
 import Section4 from './main-sections/Section4.vue'; 
 import Section5 from './main-sections/Section5.vue'; 
+import Section6 from './main-sections/Section6.vue'; 
 
 
 
@@ -34,6 +38,7 @@ export default {
     Carousel2,
     Section4,
     Section5,
+    Section6,
     },
     data () {
         

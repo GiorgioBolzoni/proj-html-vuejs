@@ -7,10 +7,10 @@
         <div class="card-container d-flex justify-content-between align-items-center py-3">
             <div v-for="(image, index) in images" :key="index" class="card-image">
                 <img :src="image.img" alt="immagine" class="active">
-                <div class="image-text d-flex flex-column justify-content-between">
-                    <div class="image-name" v-html="image.name"></div>
-                    <p>Biker</p>
-                    <ul class="d-flex justify-content-center">
+                <div class="image-text d-flex flex-column justify-content-between align-items-center py-2">
+                    <div class="image-name d-flex justify-content-center align-items-center" v-html="image.name"></div>
+                    <p class="d-flex justify-content-center align-items-center">Biker</p>
+                    <ul class="d-flex justify-content-center align-items-center">
                         <li>
                             <a href="#">
                                 <i class="fa-brands fa-facebook-f" style="color: #ffffff;"></i>
@@ -68,6 +68,8 @@ export default {
         padding: 5px;
         background-color: #f5f5f5;
         width: calc((100% / 4) - 10px);
+        position: relative;
+        cursor: pointer;
         img{
             height: 100%;
         }
@@ -76,6 +78,11 @@ export default {
             color: white;
             text-align: center;
             font-weight: 600;
+            position: absolute;
+            width: calc(100% - 10px);
+            bottom: 5px;
+            left: 5px;
+            overflow: hidden;
 
             .image-name{
                 font-size: 1.5em;
@@ -89,6 +96,12 @@ export default {
         li{
             list-style: none;
             margin-right: 10px;
+        }
+
+        &:hover img{
+            filter: brightness(70%);
+            // transform: scale(110%);
+            // overflow: hidden;
         }
     }
 </style>
